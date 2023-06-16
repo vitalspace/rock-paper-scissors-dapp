@@ -1,0 +1,57 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "jugador",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "enum PiedraPapelTijera.Opcion",
+				"name": "opcionJugador",
+				"type": "uint8"
+			},
+			{
+				"indexed": false,
+				"internalType": "enum PiedraPapelTijera.Opcion",
+				"name": "opcionContrato",
+				"type": "uint8"
+			},
+			{
+				"indexed": false,
+				"internalType": "int8",
+				"name": "resultado",
+				"type": "int8"
+			}
+		],
+		"name": "Juego",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "opcion",
+				"type": "uint256"
+			}
+		],
+		"name": "jugar",
+		"outputs": [
+			{
+				"internalType": "int8",
+				"name": "",
+				"type": "int8"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
